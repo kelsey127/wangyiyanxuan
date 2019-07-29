@@ -1,0 +1,28 @@
+.footer-bar{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+.footer-icon {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content:space-around;
+}
+.footer-bar .footer-icon .footer-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.my-active{
+    color: red
+}
+.iconfont{
+    font-size: 20px;
+    margin-bottom: 3px;    
+}
+.footer-bar .footer-icon .footer-item span{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
