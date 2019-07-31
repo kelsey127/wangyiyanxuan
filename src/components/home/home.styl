@@ -1,5 +1,52 @@
-.homeHeader
-    display flex
-    justify-content space-around
-    color red
+.home
+    position relative 
+    .homeHeader
+        margin 10px
+        display flex
+        justify-content space-around
+        align-items center
+        .title
+            font-size 18px
+            margin-right 10px
+        .search
+            background-color rgba(0,0,0,0.1)
+            background-image url('./images/search.png')
+            background-repeat no-repeat
+            background-position 10px center
+            background-size 25px
+            width 62%
+            height 30px
+            border-radius 5px
+            margin-right 10px
+        .search::-webkit-input-placeholder
+            padding-left 35px
+            font-size 14px         
+        .loginButton
+            background-color #fff
+            color red
+            border 1px solid red
+            border-radius 3px 
+    .homeContent         
+        .homeNav
+            position relative
+            width 100%
+            .Router
+                display flex
+                justify-content space-around
+                margin-right 60px
+                .nav-item
+                    color #333
+                    font-size 15px
+                    &.my-active
+                        color red
+                        padding-bottom 10px
+                        border-bottom 2px solid red         
+            .arrow-down
+                display inline-block
+                position absolute
+                top 0
+                right 20px
+            
+
+            
     
